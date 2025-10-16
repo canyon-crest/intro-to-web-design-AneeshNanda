@@ -2,6 +2,15 @@ body{
 background: linear-gradient(to bottom, rgb(67, 67, 67), rgb(44, 44, 44));
     color: rgb(197, 197, 197); 
     font-family: Arial, Helvetica, sans-serif;
+    margin:0
+}
+#container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(27, 27, 27);
+    padding: 40px;
+    border-right: white solid 5px;
+    border-left: white solid 5px;
 }
 h1{
     background-color: rgb(255, 255, 255);
@@ -54,10 +63,16 @@ a:active{
     color:black
 }
 
+h3:hover{
+    background-color: white;
+    color:black;
+}
+
 #pic1{
-    border: none;
+     border: black solid 5px;
+    padding: 0px;
     width: 200px;
-    padding-left: 30px;
+    padding-left: auto;
 }
 
 #pic2{
@@ -67,9 +82,22 @@ a:active{
     padding-right: 30px;
 }
 
+#pic2{
+    border: black solid 5px;
+    padding: 0px;
+}
+
+#pic3{
+    border: black solid 5px;
+    padding: 0px;
+    width: 200px;
+    padding-left: auto;
+}
+
 /*Class RULE*/
 .highlight{
     font-weight: bold;
-    background-color: yellow;
-    padding: 5 px
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
 }
