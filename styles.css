@@ -188,8 +188,8 @@ a:active {
 }
 @media (max-width:768px){
      #container{
-        background: linear-gradient(180deg, #3b3b3b 0%, #1f1f1f 100%);
-        color: #d6d6d6;
+               background: linear-gradient(to bottom, #ffffff, #2b2b2b);
+        color: black;
         font-weight: 100;
     }
     #sidebar{ 
