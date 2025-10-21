@@ -166,7 +166,7 @@ a:active {
         background: linear-gradient(to bottom, #ffffff, #2b2b2b);
         color: black;
         font-weight: 100;
-        width: 100%;
+        width: 95%;
     }
 
         #container, p{
@@ -202,7 +202,7 @@ a:active {
         display: none;
     }
     img,#pic1,#pic2,#pic3{
-        float:none;
+
         border: none;
     }
     h3{
